@@ -2,19 +2,50 @@
 # The Python Worker is managed by Azure Functions platform
 # Manually managing azure-functions-worker may cause unexpected issues
 
+# azure-common: Biblioteca que fornece componentes comuns usados em outros pacotes da Azure SDK, como autenticação e comunicação com os serviços da Microsoft Azure.
 azure-common>=1.1.28,<2.0.0
+
+# azure-core: Oferece componentes centrais para interagir com a Azure, incluindo classes para autenticação, manipulação de exceções e parâmetros de configuração para os outros pacotes do SDK Azure.
 azure-core>=1.29.4,<2.0.0
+
+# azure-functions: Pacote para trabalhar com Azure Functions, uma plataforma de computação sem servidor (serverless) da Azure. Ele ajuda a desenvolver, testar e implantar funções no Azure.
 azure-functions>=1.17.0,<2.0.0
+
+# azure-search-documents: Biblioteca usada para interagir com o Azure Cognitive Search, permitindo que você crie, consulte e gerencie índices de pesquisa e documentos dentro do serviço de busca do Azure.
 azure-search-documents>=11.3.0,<12.0.0
+
+# certifi: Fornece uma coleção de certificados de autoridades de certificação confiáveis. Usado para garantir que a comunicação via HTTPS seja segura, ao verificar a autenticidade dos certificados SSL.
 certifi>=2023.7.22,<2024.0.0
+
+# chardet: Biblioteca para detectar a codificação de caracteres em arquivos e streams de dados. Geralmente é usada para identificar a codificação de texto quando não há uma indicação explícita.
 chardet>=5.2.0,<6.0.0
+
+# charset-normalizer: Serve como uma alternativa ao `chardet` para detectar a codificação de caracteres em texto. Ele é frequentemente usado para análise de dados de texto de diferentes fontes.
 charset-normalizer>=3.2.0,<4.0.0
+
+# idna: Biblioteca que implementa a codificação de domínios de internet conforme o padrão IDNA (Internationalized Domain Names in Applications). Usado para lidar com domínios com caracteres não ASCII.
 idna>=3.4,<4.0.0
+
+# isodate: Facilita a manipulação e análise de datas e horas no formato ISO 8601 (um padrão para representar datas e horas).
 isodate>=0.6.1,<1.0.0
+
+# msrest: Biblioteca que fornece componentes para chamadas HTTP assíncronas e a serialização/deserialização de objetos, sendo uma parte importante da interação com a API REST no SDK da Azure.
 msrest>=0.7.1,<1.0.0
+
+# oauthlib: Biblioteca que facilita a implementação de protocolos OAuth para autenticação e autorização de usuários em serviços web.
 oauthlib>=3.2.2,<4.0.0
+
+# requests: Biblioteca amplamente usada para fazer requisições HTTP de forma simples e eficiente. É uma das bibliotecas mais populares para interagir com APIs.
 requests>=2.31.0,<3.0.0
+
+# requests-oauthlib: Integra a biblioteca `requests` com o `oauthlib`, permitindo que você faça requisições HTTP com autenticação OAuth.
 requests-oauthlib>=1.3.1,<2.0.0
+
+# six: Biblioteca que fornece compatibilidade entre Python 2 e Python 3, simplificando o código para que funcione em ambas as versões.
 six>=1.16.0,<2.0.0
+
+# typing_extensions: Contém extensões para a biblioteca `typing` do Python, permitindo o uso de anotações de tipo que podem não ser suportadas nativamente em versões mais antigas do Python.
 typing_extensions>=4.8.0,<5.0.0
+
+# urllib3: Biblioteca para fazer requisições HTTP, que fornece funcionalidades avançadas como conexões seguras, controle de tempo de espera e manipulação de cabeçalhos HTTP.
 urllib3>=2.0.4,<3.0.0
